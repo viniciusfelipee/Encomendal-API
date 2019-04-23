@@ -1,0 +1,5 @@
+INSERT INTO Usuario (id, cel, email, nome, nome_usuario, senha, tel) VALUES (1, '983491124', 'viniciusjoao@gmail.com', 'Vinicius Joao', 'viniiejaa' , '123456', '26384729');
+
+INSERT INTO Vendedor (id, cnpj, cpf, link_facebook,nome_loja) VALUES (1,NULL,'154.477.347-91', 'facebook.com.br/luminariaslucia','Luminárias LULU');
+INSERT INTO Vendedor (id, cnpj, cpf, link_facebook,nome_loja) VALUES (2,NULL,'139-949-311-98', 'facebook.com.br/carlaramospastas','Pastibum!');
+INSERT INTO Vendedor (id, cnpj, cpf, link_facebook,nome_loja) VALUES (3,NULL,'867-374-555-50', 'facebook.com.br/ricarlofreelas','Ricarlão da Massa');
