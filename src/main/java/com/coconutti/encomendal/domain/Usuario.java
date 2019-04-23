@@ -6,8 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 
 import lombok.Data;
 
@@ -25,13 +23,6 @@ public class Usuario implements Serializable {
 	private String nomeUsuario;
 	private String senha;
 	private String email;
-	
-	@OneToOne
-	@JoinColumn(name="id_vendedor")
-	private Vendedor vendedor;
-	@OneToOne
-	@JoinColumn(name="id_consumidor")
-	private Consumidor consumidor;
 	
 	public Usuario () {
 		

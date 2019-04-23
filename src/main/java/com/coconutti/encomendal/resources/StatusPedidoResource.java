@@ -19,7 +19,7 @@ public class StatusPedidoResource {
 	StatusPedidoService statusPedidoServ;
 	
 	@RequestMapping(value="/all",method=RequestMethod.GET)
-	public ResponseEntity<?> getAll() {
+	public ResponseEntity<List<StatusPedido>> getAll() {
 		List<StatusPedido> allStatusPedido =  statusPedidoServ.getAll();
 		return ResponseEntity.ok().body(allStatusPedido);
 	}
